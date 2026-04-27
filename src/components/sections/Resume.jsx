@@ -5,9 +5,9 @@ import useSound from '../../hooks/useSound';
 import { personalInfo } from '../../data/portfolioData';
 
 const highlights = [
-  { icon: <FaCode />, value: '2+ Years', label: 'Coding Experience', color: 'text-purple-400' },
+  { icon: <FaCode />, value: 'Fresher', label: 'Coding Experience', color: 'text-purple-400' },
   { icon: <FaBriefcase />, value: '20+ Projects', label: 'Built & Delivered', color: 'text-cyan-400' },
-  { icon: <FaGraduationCap />, value: 'B.Tech CSE', label: 'Degree', color: 'text-pink-400' },
+  { icon: <FaGraduationCap />, value: 'BCA', label: 'Degree', color: 'text-pink-400' },
   { icon: <FaAward />, value: '6+ Certs', label: 'Certifications', color: 'text-orange-400' },
 ];
 

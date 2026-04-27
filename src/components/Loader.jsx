@@ -350,7 +350,7 @@ const Loader = ({ onComplete }) => {
               <motion.img
                 src={profileImg}
                 alt="Profile"
-                className="relative w-56 h-56 rounded-full object-cover select-none"
+                className="relative w-32 h-32 md:w-56 md:h-56 rounded-full object-cover select-none"
                 style={{
                   boxShadow: phase === 'falling'
                     ? '0 40px 80px rgba(168,85,247,0.9), 0 0 0 6px rgba(168,85,247,0.4), 0 0 0 12px rgba(6,182,212,0.2)'
