@@ -3,36 +3,39 @@
 
 export const personalInfo = {
   name: "Sunny Kumar",
-  role: "Full Stack MERN Developer",
+  role: "Software Engineer | MERN & Java",
   tagline: "I build scalable web apps with modern tech.",
-  location: "Patna, Bihar, India",
+  location: "Hajipur, Bihar, India",
   email: "sunnykrhjp378@gmail.com",
-  github: "https://github.com/sunnykumar",
-  linkedin: "https://linkedin.com/in/sunnykumar",
+  github: "https://github.com/kumarsunny23",
+  linkedin: "https://www.linkedin.com/in/sunny-kumar-b576492b9/",
   twitter: "https://twitter.com/sunnykumar",
+  leetcode: "https://leetcode.com/u/kumarsunny23/",
   resumeUrl: "/Sunny_Kumar_Resume.pdf",
   avatarInitials: "SK",
 };
 
 export const typingRoles = [
+  "Software Engineer",
   "Full Stack MERN Developer",
+  "Java Developer",
   "React.js Expert",
   "Node.js Backend Engineer",
-  "MongoDB Architect",
-  "Open Source Enthusiast",
+  "DSA with Java",
+  "Problem Solver",
 ];
 
 export const aboutStats = [
-  { label: "Years Experience", value: "2+", suffix: "" },
-  { label: "Projects Completed", value: "20+", suffix: "" },
-  { label: "GitHub Commits", value: "500+", suffix: "" },
-  { label: "Happy Clients", value: "15+", suffix: "" },
+  { label: "Experience", value: "Fresher", suffix: "" },
+  { label: "Projects Completed", value: "8+", suffix: "" },
+  { label: "GitHub Commits", value: "300+", suffix: "" },
+  { label: "Happy Clients", value: "3+", suffix: "" },
 ];
 
-export const aboutDescription = `Hi! I'm Sunny Kumar, a passionate Full Stack MERN Developer from Patna, Bihar.
+export const aboutDescription = `Hi! I'm Sunny Kumar, a passionate Full Stack MERN Developer & Java Developer from Hajipur, Bihar.
 I specialize in building robust, scalable web applications using MongoDB, Express.js, React.js, and Node.js.
 I love turning complex problems into elegant, user-friendly solutions.
-When I'm not coding, I'm exploring new technologies, contributing to open source, or mentoring fellow developers.`;
+When I'm not coding, I'm practicing DSA, exploring new technologies, or mentoring fellow developers.`;
 
 // ─── Skills ──────────────────────────────────────────────────
 export const skillCategories = [
@@ -98,7 +101,7 @@ export const projects = [
     description: "A real-time WebRTC video conferencing app with Google Auth, guest invite system, chat, and screen sharing. Built with the full MERN stack.",
     image: null,
     tech: ["React", "Node.js", "WebRTC", "Socket.io", "MongoDB", "JWT"],
-    github: "https://github.com/sunnykumar",
+    github: "https://github.com/kumarsunny23",
     live: "#",
     featured: true,
     color: "from-purple-600 to-cyan-600",
@@ -109,7 +112,7 @@ export const projects = [
     description: "A full-featured e-commerce web app with product catalog, cart, payment integration (Razorpay), and admin dashboard.",
     image: null,
     tech: ["React", "Redux", "Node.js", "Express", "MongoDB", "Razorpay"],
-    github: "https://github.com/sunnykumar",
+    github: "https://github.com/kumarsunny23",
     live: "#",
     featured: true,
     color: "from-pink-600 to-orange-500",
@@ -120,7 +123,7 @@ export const projects = [
     description: "AI-powered tool that automatically extracts highlight clips from long videos using NLP and computer vision techniques.",
     image: null,
     tech: ["React", "Python", "FastAPI", "MongoDB", "OpenAI API"],
-    github: "https://github.com/sunnykumar",
+    github: "https://github.com/kumarsunny23",
     live: "#",
     featured: true,
     color: "from-cyan-500 to-blue-600",
@@ -131,45 +134,23 @@ export const projects = [
     description: "Collaborative task manager with real-time updates, drag-and-drop Kanban board, team roles, and deadline notifications.",
     image: null,
     tech: ["React", "Node.js", "Socket.io", "MongoDB", "Tailwind"],
-    github: "https://github.com/sunnykumar",
+    github: "https://github.com/kumarsunny23",
     live: "#",
     featured: false,
     color: "from-green-500 to-teal-500",
-  },
-  {
-    id: 5,
-    title: "Blog CMS Platform",
-    description: "A headless CMS-powered blog platform with rich text editing, SEO optimization, tag filtering, and user authentication.",
-    image: null,
-    tech: ["Next.js", "MongoDB", "Mongoose", "Tailwind", "JWT"],
-    github: "https://github.com/sunnykumar",
-    live: "#",
-    featured: false,
-    color: "from-violet-500 to-purple-700",
-  },
-  {
-    id: 6,
-    title: "Chat Application",
-    description: "Real-time chat app with private & group messaging, emoji support, file sharing, and online presence indicators.",
-    image: null,
-    tech: ["React", "Node.js", "Socket.io", "MongoDB", "Cloudinary"],
-    github: "https://github.com/sunnykumar",
-    live: "#",
-    featured: false,
-    color: "from-orange-500 to-yellow-500",
-  },
+  }
 ];
 
 // ─── Education ────────────────────────────────────────────────
 export const education = [
   {
     id: 1,
-    degree: "Bachelor of Technology (B.Tech)",
-    field: "Computer Science & Engineering",
-    institution: "Aryabhatta Knowledge University",
+    degree: "Bachelor of Computer Application",
+    field: "Computer Application",
+    institution: "Patliputra University",
     location: "Patna, Bihar",
     year: "2023 – 2026",
-    cgpa: "8.2 / 10",
+    cgpa: "6.3 / 10",
     icon: "🎓",
   },
   {
@@ -177,9 +158,9 @@ export const education = [
     degree: "Intermediate (12th Science)",
     field: "Physics, Chemistry, Mathematics",
     institution: "Bihar School Examination Board",
-    location: "Patna, Bihar",
+    location: "Hajipur, Bihar",
     year: "2021 – 2023",
-    cgpa: "72.4%",
+    cgpa: "63.4%",
     icon: "📚",
   },
   {
@@ -187,9 +168,9 @@ export const education = [
     degree: "Matriculation (10th)",
     field: "Science & Mathematics",
     institution: "Bihar School Examination Board",
-    location: "Patna, Bihar",
+    location: "Hajipur, Bihar",
     year: "2020 – 2021",
-    cgpa: "85.0%",
+    cgpa: "75.6%",
     icon: "🏫",
   },
 ];

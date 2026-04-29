@@ -25,7 +25,7 @@ const ProjectCard = ({ project, playClick }) => {
       >
         <span className="text-6xl">
           {project.id === 1 ? '📹' : project.id === 2 ? '🛒' : project.id === 3 ? '🤖' :
-           project.id === 4 ? '📋' : project.id === 5 ? '📝' : '💬'}
+            project.id === 4 ? '📋' : project.id === 5 ? '📝' : '💬'}
         </span>
         {/* Hover overlay */}
         <AnimatePresence>
@@ -164,11 +164,10 @@ const Projects = () => {
               key={f}
               onClick={() => { playClick(); setFilter(f); }}
               whileTap={{ scale: 0.95 }}
-              className={`px-5 py-2 rounded-full text-sm font-medium transition-all cursor-none ${
-                filter === f
+              className={`px-5 py-2 rounded-full text-sm font-medium transition-all cursor-none ${filter === f
                   ? 'bg-gradient-to-r from-primary to-accent text-white shadow-glow'
                   : 'glass text-gray-400 hover:text-white border border-white/10'
-              }`}
+                }`}
             >
               {f.charAt(0).toUpperCase() + f.slice(1)}
             </motion.button>
@@ -199,7 +198,7 @@ const Projects = () => {
           viewport={viewportOnce}
         >
           <motion.a
-            href="https://github.com/sunnykumar"
+            href="https://github.com/kumarsunny23"
             target="_blank"
             rel="noreferrer"
             whileHover={{ scale: 1.05 }}
