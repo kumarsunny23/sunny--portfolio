@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sunny-portfolio-red.vercel.app/sitemap.xml
